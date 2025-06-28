@@ -2,9 +2,12 @@ package com.autobots.automanager.mappers;
 
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Component;
+
 import com.autobots.automanager.dtos.VendaDTO;
 import com.autobots.automanager.entitades.Venda;
 
+@Component
 public class VendaMapper {
 
 	private final MercadoriaMapper mercadoriaMapper = new MercadoriaMapper();

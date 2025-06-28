@@ -1,8 +1,11 @@
 package com.autobots.automanager.mappers;
 
+import org.springframework.stereotype.Component;
+
 import com.autobots.automanager.dtos.VeiculoDTO;
 import com.autobots.automanager.entitades.Veiculo;
 
+@Component
 public class VeiculoMapper {
 
 	public VeiculoDTO toDTO(Veiculo v) {

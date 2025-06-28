@@ -14,7 +14,7 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@ToString(exclude = { "mercadorias", "vendas", "veiculos" })
+@ToString(exclude = { "mercadorias", "vendas", "veiculos", "credenciais" })
 @Entity
 public class Usuario {
 	@Id
@@ -29,6 +29,7 @@ public class Usuario {
 
 	@ElementCollection(fetch = FetchType.EAGER)
 	private Set<PerfilUsuario> perfis = new HashSet<>();
+	
 
 	@OneToMany(orphanRemoval = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private Set<Telefone> telefones = new HashSet<>();

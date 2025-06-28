@@ -1,8 +1,11 @@
 package com.autobots.automanager.mappers;
 
+import org.springframework.stereotype.Component;
+
 import com.autobots.automanager.dtos.MercadoriaDTO;
 import com.autobots.automanager.entitades.Mercadoria;
 
+@Component
 public class MercadoriaMapper {
 
 	public MercadoriaDTO toDTO(Mercadoria m) {
