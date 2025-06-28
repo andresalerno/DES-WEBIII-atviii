@@ -2,7 +2,7 @@
 
 Empresa criada: AutoBots
 
-Parceiros: Toyota Motor Corporation e Grupo Volskwagen
+Parceiros: Toyota Motor Corporation e Grupo Volkswagen
 
 Fundador, Dev e Engenheiro de Software: André Salerno
 
@@ -26,4 +26,4 @@ b) acessar o link: http://localhost:8080/swagger-ui/index.html#/
 
 Nesse link pode ser visto os endpoints criados conforme solicitação da atividade.
 
-Importante ressaltar que tudo isso esta sendo realizado em um contaiber MySQL.
+Importante ressaltar que tudo isso esta sendo realizado em um container MySQL.
